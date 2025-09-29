@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  color: #000000;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  padding: 10px 0;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #000000;
+}
+
+.builder-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.bracelet {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  gap: 0px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  min-height: 50px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  overflow-x: auto;
+}
+
+.bracelet img {
+  width: 50px;
+  height: 35px;
+  border: 1px solid #999;
+  background-color: #fff;
+  cursor: pointer;
+  object-fit: cover;
+  margin-left: 2px; /* Slight spacing without overlap */
+  border-radius: 2px;
+}
+.bracelet img:first-child {
+  margin-left: 0;
+}
+
